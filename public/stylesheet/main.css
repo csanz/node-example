@@ -1,0 +1,19 @@
+body {
+  padding: 10px 10px 10px 10px;
+  font: 14px "helvetica neue", helvetica, arial, sans-serif;
+  background: url("/images/background.png");
+}
+dev#references {
+  border: 1px solid #a9a9a9;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 8px 10px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(169,169,169,0.6), 0 0 3px 1px rgba(169,169,169,0.1);
+  -moz-box-shadow: 0 1px 1px 0 rgba(169,169,169,0.6), 0 0 3px 1px rgba(169,169,169,0.1);
+  box-shadow: 0 1px 1px 0 rgba(169,169,169,0.6), 0 0 3px 1px rgba(169,169,169,0.1);
+}
+dev#references a {
+  font-weight: bold;
+}

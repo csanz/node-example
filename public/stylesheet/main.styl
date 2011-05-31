@@ -1,0 +1,30 @@
+@import 'nib'
+
+//  Set Variables
+
+light = #a9a9a9
+
+//  Mixins
+
+coolify()
+  border 1px solid light
+  border-radius 5px
+  margin: 5px 0
+  padding: 8px 10px
+  box-shadow: 0 1px 1px 0 rgba(light, 0.6), 0 0 3px 1px rgba(light, 0.1)
+
+//  Start The fun!
+
+body
+  padding 10px  10px  10px  10px
+  font 14px 'helvetica neue', helvetica, arial, sans-serif
+  background  url('/images/background.png')
+  
+
+//  References
+
+dev#references
+  coolify()
+  
+dev#references a
+  font-weight bold
