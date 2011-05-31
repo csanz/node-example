@@ -1,12 +1,7 @@
 {
-  "name": "testapp",
-  "description": "test app",
+  "name": "node-example-csanz",
   "version": "0.0.1",
   "dependencies": {
-    "express": "2.0.0beta3"
-  , "connect-timeout": "= 0.0.1"
-  , "jade": "0.6.0"
-  },
-  "main": "./web.js",
-  "engines": { "node": ">= 0.4.4" }
+    "express": "2.2.0"
+  }
 }

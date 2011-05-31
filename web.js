@@ -1,7 +1,12 @@
-var app = require('express').createServer();
+var express = require('express');
 
-app.get('/', function(req, res){
-  res.send('hello world from heroku yo!');
-})
+var app = express.createServer(express.logger());
 
-app.listen(3000);
+app.get('/', function(request, response) {
+  response.send('Hello World From HEROKU BITCH! for more go here: http://devcenter.heroku.com/articles/node-js');
+});
+
+var port = process.env.PORT || 3000;
+console.log("Listening on " + port);
+
+app.listen(port);
