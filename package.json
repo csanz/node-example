@@ -1,6 +1,6 @@
 {
-  "name": "test app",
-  "description": "test app app",
+  "name": "testapp",
+  "description": "test app",
   "version": "0.0.1",
   "dependencies": {
     "express": "2.0.0beta3"
